@@ -125,7 +125,7 @@ private
         hash[name] = v
       end
     else
-      hash[name] = node_hash[CONTENT_ROOT]
+      hash[name] = {}
     end
 
     hash
